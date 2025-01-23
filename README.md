@@ -42,7 +42,7 @@ A simple **Bank Management System** built using Python that allows users to crea
    cd BMS
    ```
 
-3. **Create a virtual environment (optional but recommended)**  
+3. **Create a virtual environment (optional)**  
    ```bash
    python -m venv venv
    source venv/bin/activate   # On macOS/Linux
@@ -56,7 +56,12 @@ A simple **Bank Management System** built using Python that allows users to crea
 
 5. **Run the application**  
    ```bash
-   python bank_management.py
+   python bank.py
+   ```
+   
+6. **Run the Streamlit application**  
+   ```bash
+   python bms.py
    ```
 
 ---
@@ -85,7 +90,8 @@ A simple **Bank Management System** built using Python that allows users to crea
 ```
 BMS/
 │-- accounts.data          # Serialized account data file
-│-- bank_management.py     # Main script for CLI operations
+│-- bank.py     # Main script for CLI operations
+│-- bms.py     # Streamlit script for CLI operations
 │-- README.md              # Project documentation
 │-- requirements.txt       # Required dependencies
 │-- .gitignore             # Ignored files and folders
@@ -131,10 +137,6 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes: `git commit -m "Add new feature"`.  
 4. Push to the branch: `git push origin feature-name`.  
 5. Open a pull request.  
-
----
-
-## 🧑‍💻 Author
 
 **Anjali Jichkar**  
 🔗 [GitHub Profile](https://github.com/AnjaliJichkar)
