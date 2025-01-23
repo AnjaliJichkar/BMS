@@ -59,9 +59,14 @@ A simple **Bank Management System** built using Python that allows users to crea
    python bank.py
    ```
    
+ 6. **Install Streamlit**  
+   ```bash
+   pip install streamlit
+   ```
+   
 6. **Run the Streamlit application**  
    ```bash
-   python bms.py
+   streamlit run bms.py
    ```
 
 ---
